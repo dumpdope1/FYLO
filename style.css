@@ -1,0 +1,126 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: hsl(229, 57%, 11%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+}
+
+.mainContainer { 
+    border: 3px solid;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 980px;
+
+}
+.logoContainer {
+    height: 180px;
+    width: 350px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    margin: 20px;
+    border-radius: 20px 110px 20px 20px;
+}
+.logo {
+    padding-left: 50px;
+    height: 50px;
+}
+.progressbarContainer {
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 150px;
+    width: 550px;
+    border-radius: 20px;
+    background-color: hsl(228, 56%, 26%);
+    display: flex;
+    justify-content: center;
+
+}
+img {
+    margin: auto 5px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+}
+.utilityButtons {
+    display: flex;
+    height: 89px;
+    border-radius: 10px;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.remainingData {
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #fff;
+    
+}
+.data {
+    color: #fff;
+    opacity: 1;
+    color: none;
+}
+.remainingData {
+    opacity: .5;
+    width: 515px;
+    color: #fff;
+    position: absolute;
+    margin-right: -5px;
+    
+}
+.footerdata {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.leftsection {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+}
+.data {
+    display: inline-block;
+    align-content: right;
+}
+p{
+    color: #fff;
+}
+progress {
+    position: relative;
+    width: 450px;
+    height: 25px;
+    margin-top: 85px;
+    background-image: linear-gradient(to right, #ffa399, #ff4d97);
+}
+.progressbar {
+    color: white;
+    width: 85%;
+    background-image: -webkit-gradient(linear, left top, right top, from(#ffa399), to(#ff4d97));
+    background-image: linear-gradient(to right, #ffa399, #ff4d97);
+    height: 10px;
+    border: 2px solid #0c122c;
+    border-radius: 2rem;
+    min-width: 1rem;
+    position: relative;
+    display: inline-block;
+    
+}
+ .indicator {
+    background-color: #0c122c;
+    height: 1rem;
+    margin-top: 85px;
+    border-radius: 2rem;
+    position: relative;
+    width: 85%;
+    display: inline-block;
+    
+}
